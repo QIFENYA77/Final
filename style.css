@@ -1,0 +1,234 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #d9534f;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #d9534f;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  padding: 12px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/pizza-hero.jpg') center/cover no-repeat;
+  height: 400px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: brightness(50%); /* Darken the hero image */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.hero .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  background-color: #d9534f;  /* Red background color */
+  color: white;  /* White text */
+  border: none;  /* Remove border */
+}
+
+.hero .btn:hover {
+  background-color: #c9302c;  /* Darker red when hovered */
+  color: white;
+}
+
+/* Menu Section */
+#menu {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #f8f9fa; /* Lighter background for card */
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333; /* Dark text color for better readability */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555; /* Darker text color */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Deals Section */
+#deals {
+  background-color: #f5f5f5; /* Soft grey background */
+  padding: 50px 0;
+}
+
+#deals p {
+  font-size: 1.2rem;
+  color: #333; /* Dark text for contrast */
+}
+
+/* Order Section */
+#order {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+#order .form-label {
+  font-size: 1.1rem;
+}
+
+#order .form-control {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #f9f9f9; /* Lighter input fields */
+}
+
+#order .btn-danger {
+  font-size: 1.2rem;
+  padding: 12px 20px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #343a40;
+  padding: 40px 0;
+  color: #fff; /* Text color for contrast */
+}
+
+#contact p {
+  font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #d9534f;
+  color: white;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Pizza Detail Section */
+#pizza-details {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+#pizza-details img {
+  max-width: 100%;
+  height: auto;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+#comments p {
+  font-size: 1rem;
+}
+
+#comments strong {
+  font-weight: bold;
+}
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #f9f9f9; /* Light background for textarea */
+  resize: none;
+}
+
+form button {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  background-color: #d9534f;
+  border: none;
+  color: white;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
